@@ -20,3 +20,10 @@ for i in range(x):
 for j in range(y):
 if x == i + j and y == i * j:
 print(i, j)
+
+Задача 14
+n = int(input())
+i = 0
+while 2 ** i <= n:
+print(2 ** i)
+i += 1
